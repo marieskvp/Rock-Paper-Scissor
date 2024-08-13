@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <h1>Rock - Paper - Scissor</h1>
+    <div class="inner-flex">
+        <button onclick="result('rock')" class="user-pick">
+            <img src="images/rock-emoji.png" alt="pick:ROCK">
+        </button>
+        <button onclick="result('paper')" class="user-pick">
+            <img src="images/paper-emoji.png"  alt="pick:PAPER">
+        </button>
+        <button onclick="result('scissor')" class="user-pick">
+            <img src="images/scissor-emoji.png"  alt="pick:SCISSOR">
+        </button>
+    </div>
+    <p class="state"></p>
+    <p class="picked-Moves"></p>
+    <p class="score-Card"></p>
+    <button onclick="reset()" class="reset-button">
+        <img src="images/replay-emoji.png" alt="Replay"></button>
+    <script src="app.js"></script>
+</body>
+</html>
